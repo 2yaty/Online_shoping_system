@@ -8,15 +8,17 @@ public class Main {
         Scanner in = new Scanner(System.in);
 
         String input ;
-        while (!getOut){
-            System.out.println("are you the admin ? (Y/N)");
-            input = in.next().toLowerCase();
-            if (input.equals("y"))
-                Admin.main(null);
-            else if (input.equals("n"))
-                Customer.main(null);
-            else
-                getOut = true;
-        }
+
+        System.out.println("good evening");
+//        while (!getOut){
+//            System.out.println("are you the admin ? (Y/N)");
+//            input = in.next().toLowerCase();
+//            if (input.equals("y"))
+//                Admin.main(null);
+//            else if (input.equals("n"))
+//                Customer.main(null);
+//            else
+//                getOut = true;
+//        }
     }
 }
