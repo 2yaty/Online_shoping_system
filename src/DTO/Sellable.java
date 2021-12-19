@@ -1,3 +1,5 @@
+package DTO;
+
 public interface Sellable {
 
     String getName();

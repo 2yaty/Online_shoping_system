@@ -1,3 +1,6 @@
+package DAO;
+import BAO.*;
+import DTO.*;
 import java.util.ArrayList;
 
 public class Warehouse {

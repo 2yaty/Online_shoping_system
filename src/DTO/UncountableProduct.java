@@ -1,3 +1,5 @@
+package DTO;
+
 public class UncountableProduct extends Product implements Sellable , Uncountable{
 
 

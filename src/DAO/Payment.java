@@ -1,3 +1,7 @@
+package DAO;
+import BAO.*;
+import DTO.*;
+
 public class Payment {
 
     private Customer customer;

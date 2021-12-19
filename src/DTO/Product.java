@@ -1,3 +1,5 @@
+package DTO;
+
 public abstract class Product {
 
     private int id;
