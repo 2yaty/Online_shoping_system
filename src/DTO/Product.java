@@ -37,10 +37,8 @@ public abstract class Product {
     public float getPrice() {
         return price;
     }
-    /*
     @Override
     public String toString(){
         return "Id :"+id+"      name :"+name + "        amount :"+amount+"      price :"+price;
     }
-    */
 }
