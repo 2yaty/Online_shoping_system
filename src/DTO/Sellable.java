@@ -1,7 +1,6 @@
 package DTO;
 
 public interface Sellable {
-
     String getName();
     Number getAmount();
     float getCost();
