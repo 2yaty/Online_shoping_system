@@ -14,7 +14,7 @@ public class Main {
             System.out.println("are you the admin ? (Y/N)");
             input = in.next().toLowerCase();
             if (input.equals("y"))
-                Admin.main(null);
+                AdminView.main(null);
             else if (input.equals("n"))
                 CustomerView.main(null);
             else
