@@ -30,10 +30,12 @@ public class Warehouse {
     public static void deleteProduct (Admin a ,int id){
 
         products.remove(id);
+        products.trimToSize();
     }
 
-    public static void modifyProduct (Admin a ,Product product , String name, Number amount, float price){
+    public static void modifyProduct (Admin a ,int id , String name, Number amount, float price){
 
+        Product product = products.get(id);
         product.setName(name);
         product.setAmount(amount);
         product.setPrice(price);

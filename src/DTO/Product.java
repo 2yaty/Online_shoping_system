@@ -1,6 +1,6 @@
 package DTO;
 
-public abstract class Product {
+public abstract class Product implements Sellable{
     private int id;
     private String name;
     private Number amount;

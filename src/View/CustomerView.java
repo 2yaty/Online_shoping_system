@@ -51,5 +51,6 @@ public class CustomerView {
             else
                 myCart.removeCart();
         }
+        getOut = false;
     }
 }

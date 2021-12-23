@@ -1,6 +1,6 @@
 package DTO;
 
-public class UncountableProduct extends Product implements Sellable , Uncountable{
+public class UncountableProduct extends Product implements Uncountable{
 
     public UncountableProduct(int id, String name, Number amount, float price) {
         super(id, name, amount, price);
