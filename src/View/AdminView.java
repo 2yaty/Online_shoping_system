@@ -54,6 +54,7 @@ public class AdminView {
             printList();
             doAction(manager , in.nextInt());
         }
+        getOut = false;
 
 
     }
@@ -119,11 +120,11 @@ public class AdminView {
                 if (ca.toLowerCase().equals("y")){
                     System.out.println("please enter how many ?");
                     am = in.nextInt();
-                    Warehouse.addProduct(a , nam , am , p);
+                    Warehouse.modifyProduct(a,id , nam , am , p);
                 }else {
                     System.out.println("please enter how much ?");
                     amo = in.nextFloat();
-                    Warehouse.addProduct(a , nam , amo , p);
+                    Warehouse.modifyProduct(a,id , nam , amo , p);
                 }
                 break;
 
