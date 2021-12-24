@@ -2,7 +2,7 @@ package DAO;
 import BAO.*;
 import DTO.*;
 
-public class Payment {
+public class Payment implements PayInter{
 
     private Customer customer;
     private Cart cart;
@@ -12,6 +12,7 @@ public class Payment {
         this.cart = cart;
     }
 
+    @Override
     public Customer getCustomer() {
         return customer;
     }
