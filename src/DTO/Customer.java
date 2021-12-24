@@ -1,7 +1,7 @@
 package DTO;
 
 public class Customer{
-    private String name , phone ;
+    private String name , phone ,email;
 
     public Customer (String name , String phone){
         this.name = name;
