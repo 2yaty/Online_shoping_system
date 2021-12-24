@@ -1,6 +1,5 @@
 package View;
 
-import BAO.Admin;
 import java.util.Scanner;
 
 public class Main {
