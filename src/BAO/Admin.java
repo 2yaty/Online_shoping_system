@@ -1,8 +1,5 @@
 package BAO;
 
-import DAO.*;
-import java.util.Scanner;
-
 public class Admin {
     private static final String Username, Password;
     static {

@@ -7,6 +7,7 @@ public class Payment implements PayInter{
     private Customer customer;
     private Cart cart;
 
+    public Payment(){}
     public Payment (Customer customer , Cart cart){
         this.customer =customer;
         this.cart = cart;

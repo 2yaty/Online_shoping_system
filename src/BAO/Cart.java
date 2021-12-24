@@ -17,20 +17,17 @@ public class Cart {
     public void removeProduct( Sellable product){
         cart.remove(product);
         Total -= product.getCost();
-
     }
+
     public int getNumberOfProducts(){
         return cart.size();
     }
-
     public float getTotal() {
         return Total;
     }
-
     public Map<Sellable , Number> getCart() {
         return cart;
     }
-
     public void removeCart (){
         cart.clear();
     }
